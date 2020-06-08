@@ -23,16 +23,28 @@
                 The SystemControlPageBackgroundChromeLowBrush background represents where you should place your content. 
                 Place your content here.
             -->
-            <Slider
-                Value="1"
-                Minimum="0.5"
-                Maximum="1"
-                SmallChange="0.05"
-                LargeChange="0.1"
-                TickFrequency="0.05"
-                TickPlacement="Outside"
-                IsThumbToolTipEnabled="False"
-                Margin="12,6,12,6"/>
+            <StackPanel>
+                <Slider
+                    Value="1"
+                    Minimum="0.5"
+                    Maximum="1"
+                    SmallChange="0.05"
+                    LargeChange="0.1"
+                    TickFrequency="0.05"
+                    TickPlacement="Outside"
+                    IsThumbToolTipEnabled="False"
+                    Margin="12,6,12,6"/>
+
+                <Slider Value="6"
+                        Minimum="3"
+                        Maximum="6"
+                        SmallChange="0.5"
+                        LargeChange="0.5"
+                        TickFrequency="0.5"
+                        TickPlacement="Outside"
+                        IsThumbToolTipEnabled="False"
+                        Margin="12,6,12,6"/>
+            </StackPanel>
         </Grid>
     </Grid>
 </Page>
